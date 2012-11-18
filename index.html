@@ -40,6 +40,12 @@
 			#subtitle {
 				font-size: 36px;
 			}
+
+			.place-lyric {
+				text-transform: uppercase;
+				color: #5c5;
+			}
+
 			#progress {
 				background-color: #595;
 				height: 5px;
@@ -155,7 +161,12 @@
 						if (newLyric) {
 							$('#subtitle').html(newLyric.lyric);
 
+							$('#subtitle').removeClass('place-lyric');
+
 							if (MM.places[newLyric.lyric]) {
+
+								$('#subtitle').addClass('place-lyric');
+
 								var place = MM.places[newLyric.lyric];
 
 								latLng = new google.maps.LatLng(place.lat, place.lng);
