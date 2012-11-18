@@ -31,11 +31,11 @@ var MM = {
 	getNextLyric: function(time) {
 		if (!this.nextLyric && !this.finished) {
 			this.nextLyric = this.lyrics[1];
-			console.log(this.nextLyric);
+//			console.log(this.nextLyric);
 		}
 		if (time+this.offset > this.nextLyric.time) {
 			var r = this.nextLyric;
-			console.log(this.nextLyric);
+//			console.log(this.nextLyric);
 
 			if (this.lyrics[r.id+1]) {
 				this.nextLyric = this.lyrics[r.id+1];

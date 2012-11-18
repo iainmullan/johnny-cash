@@ -123,7 +123,7 @@
 
 		function loadTrack(MM) {
 
-			console.log(tomahkAPI);
+//			console.log(tomahkAPI);
 
 			track = window.tomahkAPI.Track("I've Been Everywhere","Johnny Cash", {
 				width: 300,
@@ -191,23 +191,20 @@
 									d = parseInt(d);
 
 									MM.distance = MM.distance + d;
-
-									console.log(d);
-									console.log(MM.distance);
-
+									// console.log(d);
+									// console.log(MM.distance);
 									$('#distance-num').html(MM.distance);
 
-									//
-									// var flightPlanCoordinates = [lastPin,marker];
+									// var flightPlanCoordinates = [lastPin.position,marker.position];
 									//
 									// var flightPath = new google.maps.Polyline({
 									//     path: flightPlanCoordinates,
 									//     strokeColor: "#FF0000",
 									//     strokeOpacity: 1.0,
 									//     strokeWeight: 2
-									//   });
+									// 								  	});
 									//
-									//   flightPath.setMap(map);
+									// 								  	flightPath.setMap(map);
 
 								}
 								lastPin = marker;
@@ -244,7 +241,7 @@
 
 		MM.track.subtitle("b930f210-5172-4f9b-836f-0805f69a7978", function(data) {
 			MM.lyrics = data;
-			console.log(MM.lyrics);
+			// console.log(MM.lyrics);
 			loadTrack(MM);
 		});
 
