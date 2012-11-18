@@ -104,8 +104,8 @@
 		<div id="controls" class="panel">
 			<button id="play">Play</button>
 			<button id="pause">Pause</button>
-			<button id="skip">Skip</button>
-			<button id="end">End</button>
+			<button id="skip">Hurry up!</button>
+			<button id="end">Skip to End</button>
 			<!-- <button id="load">Load</button> -->
 		</div>
 
@@ -160,8 +160,8 @@
 						$('#finger').show();
 			        },
 			        onplayable: function() {
-//						track.play();
 						$('#controls').show();
+						track.play();
 			        },
 			        onresolved: function(resolver, result) {
 //			            console.log(":\n  Track found: "+resolver+" - "+ result.track + " by "+result.artist);
