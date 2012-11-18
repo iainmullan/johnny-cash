@@ -4,7 +4,6 @@
  	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
 
     <script src="jquery.min.js"></script>
-    <script src="route.js"></script>
     <script src="lyrics.js"></script>
 
 	 <script
@@ -226,8 +225,6 @@
 			$('#player').html(track.render());
 		}
 
-		loadTrack(MM);
-
 		$('#load').click(function() {
 			loadTrack(MM);//.play();
 		});
@@ -250,6 +247,7 @@
 		MM.track.subtitle("b930f210-5172-4f9b-836f-0805f69a7978", function(data) {
 			MM.lyrics = data;
 			console.log(MM.lyrics);
+			loadTrack(MM);
 		});
 			//
 				    var map;
@@ -262,7 +260,7 @@
 
 				      map = new google.maps.Map(document.getElementById('map'), myOptions);
 
-			$.getJSON('/america_keyed.json', function(data) {
+			$.getJSON('america_keyed.json', function(data) {
 				console.log(data);
 				MM.places = data;
 				// $.each(data, function (index,elem) {
