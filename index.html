@@ -161,6 +161,8 @@
 
 	$(document).ready(function() {
 
+if ($.browser.mozilla || $.browser.msie) { alert("Using IE or Firefox? Johnny prefers Chrome or Safari (for now) (sorry!)");}
+
 		var track;
 		var lastPin = false;
 
