@@ -81,7 +81,7 @@ $(document).ready(function() {
 
 	}
 
-	function load_html_audio(MM) {
+	function load_html_audio() {
 
 		audio = new Audio("jc.mp3");
 
@@ -93,7 +93,7 @@ $(document).ready(function() {
 		audio.play();
 	}
 
-	function loadTrack(MM) {
+	function loadTrack() {
 
 		track = window.tomahkAPI.Track("I've Been Everywhere","Johnny Cash", {
 			width: 300,
