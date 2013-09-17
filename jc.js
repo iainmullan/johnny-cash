@@ -1,167 +1,161 @@
 
 if (typeof(Number.prototype.toRad) === "undefined") {
-	Number.prototype.toRad = function() {
-		return this * Math.PI / 180;
-	}
+    Number.prototype.toRad = function() {
+        return this * Math.PI / 180;
+    }
 }
 
 function log(s){console.log(s)}
 
 $(document).ready(function() {
 
-	if ($.browser.mozilla || $.browser.msie) { alert("Using IE or Firefox? Johnny prefers Chrome or Safari (for now) (sorry!)");}
+    if ($.browser.mozilla || $.browser.msie) { alert("Using IE or Firefox? Johnny prefers Chrome or Safari (for now) (sorry!)");}
 
-	var track;
-	var lastPin = false;
+    var track;
+    var lastPin = false;
 
-	function jc_update(timeupdate) {
+    function jc_update(timeupdate) {
 
-		var t = timeupdate.currentTime;
-		t = t*1000;
-		t = parseInt(t);
-		$('#time').html(t);
+        var t = timeupdate.currentTarget.currentTime;
 
-		var pct = (timeupdate.currentTime / timeupdate.duration) * 100;
-		pct = parseInt(pct);
-		$('#progress').css('width', pct+'%');
+        var pct = (t / timeupdate.currentTarget.duration) * 100;
+        pct = parseInt(pct);
+        $('#progress').css('width', pct+'%');
 
-		var newLyric = MM.getNextLyric(t);
-		if (newLyric) {
-			$('#subtitle').html(newLyric.lyric);
+        var newLyric = MM.getNextLyric(t*1000);
+        if (newLyric) {
+            $('#subtitle').html(newLyric.lyric);
 
-			$('#subtitle').removeClass('place-lyric');
+            $('#subtitle').removeClass('place-lyric');
 
-			if (MM.places[newLyric.lyric]) {
+            if (MM.places[newLyric.lyric]) {
 
-				$('#subtitle').addClass('place-lyric');
+                $('#subtitle').addClass('place-lyric');
 
-				var place = MM.places[newLyric.lyric];
+                var place = MM.places[newLyric.lyric];
 
-				latLng = new google.maps.LatLng(place.lat, place.lng);
+                latLng = new google.maps.LatLng(place.lat, place.lng);
 
-				var marker = new google.maps.Marker({
-					position: latLng,
-					map: map,
-					animation: google.maps.Animation.DROP,
-					title:place.name,
-					icon: 'face-small.png'
-				});
+                var marker = new google.maps.Marker({
+                    position: latLng,
+                    map: map,
+                    animation: google.maps.Animation.DROP,
+                    title:place.name,
+                    icon: 'face-small.png'
+                });
 
-				if (lastPin) {
+                if (lastPin) {
 
-					var lat1 = lastPin.position.lat();
-					var lon1 = lastPin.position.lng();
-					var lat2 = marker.position.lat();
-					var lon2 = marker.position.lng();
+                    var lat1 = lastPin.position.lat();
+                    var lon1 = lastPin.position.lng();
+                    var lat2 = marker.position.lat();
+                    var lon2 = marker.position.lng();
 
-					var R = 6371; // km
-					var dLat = (lat2-lat1).toRad();
-					var dLon = (lon2-lon1).toRad();
-					var lat1 = lat1.toRad();
-					var lat2 = lat2.toRad();
+                    var R = 6371; // km
+                    var dLat = (lat2-lat1).toRad();
+                    var dLon = (lon2-lon1).toRad();
+                    var lat1 = lat1.toRad();
+                    var lat2 = lat2.toRad();
 
-					var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-					Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(lat1) * Math.cos(lat2);
-					var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-					var d = R * c;
+                    var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                    Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(lat1) * Math.cos(lat2);
+                    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+                    var d = R * c;
 
-					d = parseInt(d);
+                    d = parseInt(d);
 
-					MM.distance = MM.distance + d;
-					// console.log(d);
-					// console.log(MM.distance);
-					$('#distance-num').html(MM.distance);
+                    MM.distance = MM.distance + d;
+                    $('#distance-num').html(MM.distance);
+                }
 
-				}
-				lastPin = marker;
+                lastPin = marker;
+                map.panTo(latLng);
+            }
+        }
 
-				map.panTo(latLng);
-			}
-		}
+    }
 
-	}
+    function load_html_audio() {
 
-	function load_html_audio() {
+        track = new Audio("jc.mp3");
 
-		audio = new Audio("jc.mp3");
+        $('#controls').show();
 
-		$(audio).bind('timeupdate', function() {
-			var blah = audio.currentTime;
-			$('#time').text(blah);
-		});
+        $(track).bind('timeupdate', function(timeupdate) {
+            jc_update(timeupdate);
+        });
 
-		audio.play();
-	}
+        $(track).bind('canplay', function(timeupdate) {
+            track.play();
+        });
 
-	function loadTrack() {
+    }
 
-		track = window.tomahkAPI.Track("I've Been Everywhere","Johnny Cash", {
-			width: 300,
-			height: 300,
-			handlers: {
-				onloaded: function() {
-				},
-				onended: function() {
-					$('#finger').show();
-				},
-				onplayable: function() {
-					$('#controls').show();
-					track.play();
-				},
-				onresolved: function(resolver, result) {
-					console.log(":\n  Track found: "+resolver+" - "+ result.track + " by "+result.artist);
-				},
-				ontimeupdate: function(timeupdate) {
+    function load_tomahk_audio() {
 
-					jc_update(timeupdate, MM);
+        track = window.tomahkAPI.Track("I've Been Everywhere","Johnny Cash", {
+            resolvers: ['exfm'],
+            width: 300,
+            height: 300,
+            handlers: {
+                onloaded: function() {
+                },
+                onended: function() {
+                    $('#finger').show();
+                },
+                onplayable: function() {
+                    $('#controls').show();
+                    track.play();
+                },
+                onresolved: function(resolver, result) {
+                },
+                ontimeupdate: function(timeupdate) {
+                    jc_update(timeupdate);
+                }
+            }
 
-				}
-			}
+        });
 
-		});
+        $('#player').html(track.render());
+    }
 
-		$('#player').html(track.render());
-	}
+    $('#load').click(function() {
+        loadTrack(MM);//.play();
+    });
+    $('#play').click(function() {
+        track.play();
+    });
+    $('#skip').click(function() {
+        track.currentTime = 45;
+    });
+    $('#end').click(function() {
+        track.currentTime = 150;
+    });
 
-	$('#load').click(function() {
-		loadTrack(MM);//.play();
-	});
-	$('#play').click(function() {
-		track.play();
-	});
-	$('#skip').click(function() {
-		track.seek(45);
-	});
-	$('#end').click(function() {
-		track.seek(150);
-	});
+    $('#pause').click(function() {
+        track.pause();
+    });
 
-	$('#pause').click(function() {
-		track.pause();
-	});
-
-	MM.track.subtitle("b930f210-5172-4f9b-836f-0805f69a7978", function(data) {
-		MM.lyrics = data;
-		// console.log(MM.lyrics);
-		loadTrack(MM);
-	});
+    MM.track.subtitle("b930f210-5172-4f9b-836f-0805f69a7978", function(data) {
+        MM.lyrics = data;
+        load_html_audio();
+    });
 
 });
 
 var map;
 function initialize() {
-	var myOptions = {
-		zoom: 5,
-		center: new google.maps.LatLng(38.856,-90.628),
-		mapTypeId: google.maps.MapTypeId.ROADMAP
-	};
+    var myOptions = {
+        zoom: 5,
+        center: new google.maps.LatLng(38.856,-90.628),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
 
-	map = new google.maps.Map(document.getElementById('map'), myOptions);
+    map = new google.maps.Map(document.getElementById('map'), myOptions);
 
-	$.getJSON('america_keyed.json', function(data) {
-		// console.log(data);
-		MM.places = data;
-	});
+    $.getJSON('america_keyed.json', function(data) {
+        MM.places = data;
+    });
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
