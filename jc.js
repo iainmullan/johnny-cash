@@ -81,6 +81,18 @@ $(document).ready(function() {
 
 	}
 
+	function load_html_audio(MM) {
+
+		audio = new Audio("jc.mp3");
+
+		$(audio).bind('timeupdate', function() {
+			var blah = audio.currentTime;
+			$('#time').text(blah);
+		});
+
+		audio.play();
+	}
+
 	function loadTrack(MM) {
 
 		track = window.tomahkAPI.Track("I've Been Everywhere","Johnny Cash", {
@@ -101,7 +113,7 @@ $(document).ready(function() {
 				},
 				ontimeupdate: function(timeupdate) {
 
-					jc_update(timeupdate);
+					jc_update(timeupdate, MM);
 
 				}
 			}
