@@ -1,17 +1,17 @@
-Winnemucca 
-Reno 
-Chicago 
-Fargo 
+Winnemucca
+Reno
+Chicago
+Fargo
 Minnesota
-Buffalo 
-Toronto 
-Winslow 
+Buffalo
+Toronto
+Winslow
 Sarasota
 Wichita
 Tulsa
-Ottawa 
+Ottawa
 Oklahoma
-Tampa 
+Tampa
 Panama
 Mattawa
 La Paloma
@@ -20,18 +20,18 @@ Baltimore
 Salvador
 Amarillo
 Tocapillo
-Baranquilla
+Barranquilla
 Perdilla
 Boston
-Charleston 
-Dayton 
+Charleston
+Dayton
 Louisiana
-Washington 
-Houston 
-Kingston 
+Washington
+Houston
+Kingston
 Texarkana
-Monterey 
-Faraday 
+Monterey
+Faraday
 Santa Fe
 Tallapoosa
 Glen Rock
@@ -39,33 +39,33 @@ Black Rock
 Little Rock
 Oskaloosa
 Tennessee
-Tennesse Chicopee
+Chicopee
 Spirit Lake
-Grand Lake 
-Devils Lake 
+Grand Lake
+Devils Lake
 Crater Lake
 Louisville
 Nashville
 Knoxville
 Ombabika
-Schefferville 
-Jacksonville 
-Waterville 
+Schefferville
+Jacksonville
+Waterville
 Costa Rica
-Pittsfield 
-Springfield 
-Bakersfield 
+Pittsfield
+Springfield
+Bakersfield
 Shreveport
-Hackensack 
-Cadillac, MI 
-Fond du Lac 
+Hackensack
+Cadillac, MI
+Fond du Lac
 Davenport
-Idaho 
-Jellico 
-Argentina 
+Idaho
+Jellico
+Argentina
 Diamantina
-Pasadena 
-Catalina 
+Pasadena
+Catalina
 Pittsburgh
 Parkersburg
 Gravelbourg
@@ -78,14 +78,14 @@ Larimore
 Admore
 Haverstraw
 Chatanika
-Chaska 
-Nebraska 
-Alaska 
-Opelika
-Baraboo 
-Waterloo 
-Kalamazoo 
+Chaska
+Nebraska
+Alaska
+Opalacka
+Baraboo
+Waterloo
+Kalamazoo
 Kansas City
-Sioux City 
-Cedar City 
+Sioux City
+Cedar City
 Dodge City
