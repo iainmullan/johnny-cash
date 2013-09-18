@@ -52,7 +52,7 @@ foreach($source as $order => $p) {
 		}
 
 	} else {
-//		echo "Already found $p \n";
+		echo "Already found $p \n";
 	}
 
 }
