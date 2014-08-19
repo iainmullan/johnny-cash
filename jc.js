@@ -9,7 +9,7 @@ function log(s){console.log(s)}
 
 $(document).ready(function() {
 
-    if ($.browser.mozilla || $.browser.msie) { alert("Using IE or Firefox? Johnny prefers Chrome or Safari (for now) (sorry!)");}
+    if ($.browser.msie) { alert("Using Internet Explorer? Johnny requires Chrome/Firefox/Safari to play audio. (sorry!)");}
 
     var track;
     var lastPin = false;
