@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>I&#39;ve Been Everywhere Map</name>
+  <description><![CDATA[A map of all the "I've been everywhere" places visited. See http://www.ivebeeneverywhere.com.au for details.]]></description>
+  <Style id="style70">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style92">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style77">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style84">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style80">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style51">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style85">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style55">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style87">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style73">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style67">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style56">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style72">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style76">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style52">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style64">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style81">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style83">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style71">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style66">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style54">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style93">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style57">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style68">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style88">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style60">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style74">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style82">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style69">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style61">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style75">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style59">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style89">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style96">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style53">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style91">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style86">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style94">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style65">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style90">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style62">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style97">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style50">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style58">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style63">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style79">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style78">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style95">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_au/mapfiles/ms/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Wyong NSW</name>
+    <description><![CDATA[<a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Wyong&amp;vps=1&amp;jsv=191a&amp;sll=-33.448011,151.444461&amp;sspn=0.110861,0.219727&amp;gl=au&amp;ie=UTF8&amp;ei=5XQUS_ypE5H4oATfv4XGBQ&amp;sig2=m2sw0U8hmhfiGop6ZNfQBw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.283480,151.422404"></a>]]></description>
+    <styleUrl>#style70</styleUrl>
+    <Point>
+      <coordinates>151.422409,-33.283482,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Terrigal NSW</name>
+    <description><![CDATA[<a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Terrigal,+NSW,+Australia&amp;vps=2&amp;jsv=191a&amp;sll=-33.271417,151.341476&amp;sspn=0.444346,0.878906&amp;ie=UTF8&amp;ei=eHUUS6bmDpW4owT864n7AQ&amp;sig2=SfHmMsQGOjN1gMBZkLGQpg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.448011,151.444461"></a>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>151.444458,-33.448009,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Adelong NSW 2729</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Adelong&amp;vps=1&amp;jsv=191a&amp;sll=-33.591743,151.446533&amp;sspn=1.898913,2.120361&amp;num=10&amp;ie=UTF8&amp;ei=nXYUS-yGC4rUowSCxtXpAQ&amp;sig2=tugqzEqTCtCJsB26gErq5A&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-35.307947,148.063682"></a>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>148.063675,-35.307945,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Augathella QLD</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style92</styleUrl>
+    <Point>
+      <coordinates>146.586609,-25.794685,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ballarat VIC 3352</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Ballarat&amp;vps=2&amp;jsv=191a&amp;sll=-26.022234,146.730652&amp;sspn=2.048477,2.120361&amp;ie=UTF8&amp;ei=u3YUS4bxGZPUoASetezyAQ&amp;sig2=229yzZo2xSLyARzfrOHUNQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-37.563318,143.863715"></a>]]></description>
+    <styleUrl>#style77</styleUrl>
+    <Point>
+      <coordinates>143.863708,-37.563316,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bambaroo QLD 4816</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Bambaroo&amp;vps=3&amp;jsv=191a&amp;sll=-37.563318,143.863715&amp;sspn=0.05647,0.066261&amp;g=Ballarat&amp;ie=UTF8&amp;ei=xXYUS_u7MYPMowTp7ZmMAg&amp;sig2=a40IuUb2PDspSV5hJ-fCmQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-18.844995,146.180491"></a>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>146.180496,-18.844995,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bangalow NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Bangalow&amp;vps=4&amp;jsv=191a&amp;sll=-18.844995,146.180491&amp;sspn=0.134841,0.132523&amp;g=Bambaroo&amp;ie=UTF8&amp;ei=0HYUS4G6EYSuoQT1w63eAQ&amp;sig2=bkCGscbQN5S87V4frZ2ooQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-28.686356,153.524792"></a>]]></description>
+    <styleUrl>#style84</styleUrl>
+    <Point>
+      <coordinates>153.524796,-28.686356,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bendigo VIC</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Bendigo&amp;vps=5&amp;jsv=191a&amp;sll=-28.686356,153.524792&amp;sspn=0.062496,0.066261&amp;g=Bangalow&amp;ie=UTF8&amp;ei=2nYUS7aMAYzCoATV5LztAQ&amp;sig2=_YAEx6shGCuamJD8yyQTYg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-36.755513,144.284263"></a>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>144.284256,-36.755512,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Birdsville QLD</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>139.351639,-25.898355,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boggabilla NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style80</styleUrl>
+    <Point>
+      <coordinates>150.360474,-28.605419,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Boggabri NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style51</styleUrl>
+    <Point>
+      <coordinates>150.042511,-30.704727,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brigalow QLD</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style85</styleUrl>
+    <Point>
+      <coordinates>150.790573,-26.843851,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brindabella NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>148.724487,-35.349503,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cabramatta NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Cabramatta&amp;vps=16&amp;jsv=191a&amp;sll=-35.349503,148.724491&amp;sspn=0.464846,0.53009&amp;g=Brindabella&amp;ie=UTF8&amp;ei=gXcUS_HfLIzgoAS4yvGBAg&amp;sig2=RwaeGY4IVje4qMS69RuF8g&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.895070,150.935889"></a>]]></description>
+    <styleUrl>#style55</styleUrl>
+    <Point>
+      <coordinates>150.935883,-33.895069,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Canberra ACT</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style87</styleUrl>
+    <Point>
+      <coordinates>149.128586,-35.282040,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Captains Flat NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>149.446259,-35.591255,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Caringbah NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Caringbah&amp;vps=19&amp;jsv=191a&amp;sll=-35.591255,149.446254&amp;sspn=0.231725,0.265045&amp;ie=UTF8&amp;ei=qHcUS_WpBoWioASQ7JTxAQ&amp;sig2=aJRYD06EDzYpImvajdBxmw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-34.043160,151.123102"></a>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>151.123108,-34.043159,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lismore NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lismore+NSW,+Australia&amp;vps=23&amp;jsv=191a&amp;sll=-28.601403,153.435059&amp;sspn=0.970594,1.060181&amp;ie=UTF8&amp;ei=93cUS9-VEqLuoASVwbjrAQ&amp;sig2=83TKwHPiKamdp8Uxh1eAUA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-28.812725,153.278721"></a>]]></description>
+    <styleUrl>#style73</styleUrl>
+    <Point>
+      <coordinates>153.278717,-28.812725,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Casino NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Casino+NSW,+Australia&amp;vps=24&amp;jsv=191a&amp;sll=-28.813619,153.278761&amp;sspn=0.062419,0.066261&amp;ie=UTF8&amp;ei=BngUS6qWBqLuoASVwbjrAQ&amp;sig2=6dYKmdBsgo01rObhB5NKdA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-28.863513,153.045861"></a>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>153.045868,-28.863514,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cloncurry</name>
+    <description><![CDATA[Cloncurry QLD 4824, Australia<br>]]></description>
+    <styleUrl>#style67</styleUrl>
+    <Point>
+      <coordinates>140.508148,-20.665674,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Collaroy NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Collaroy&amp;vps=26&amp;jsv=191a&amp;sll=-20.665675,140.508149&amp;sspn=0.133311,0.132523&amp;ie=UTF8&amp;ei=TXgUS5-cKpXIoASgpu2KAg&amp;sig2=6I5h6L9IzqNmsFfqa-XtKw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.740969,151.303133"></a>]]></description>
+    <styleUrl>#style56</styleUrl>
+    <Point>
+      <coordinates>151.303131,-33.740971,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Condamine QLD</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style72</styleUrl>
+    <Point>
+      <coordinates>150.131897,-26.926401,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coolangatta QLD</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Coolangatta&amp;vps=29&amp;jsv=191a&amp;sll=-26.933702,150.131607&amp;sspn=0.508096,0.53009&amp;ie=UTF8&amp;ei=ZXgUS5HzEIGYowSzzsXhAQ&amp;sig2=ZDZSPoLYrm7Wej5fm4JF6Q&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-28.168067,153.535326"></a>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>153.535324,-28.168068,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cunnamulla</name>
+    <description><![CDATA[Cunnamulla QLD 4490, Australia<br>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>145.755615,-28.086519,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dalveen QLD</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>151.968689,-28.488432,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dandenong VIC</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Dandenong&amp;vps=32&amp;jsv=191a&amp;sll=-28.488431,151.968689&amp;sspn=0.250453,0.265045&amp;ie=UTF8&amp;ei=hHgUS4S3KIiCoQSdmKDyAQ&amp;sig2=lotkXksAfxks_zOBEZ0X7Q&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-37.987271,145.214317"></a>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>145.214310,-37.987270,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Darwin NT</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Darwin+NT&amp;vps=33&amp;jsv=191a&amp;sll=-37.987271,145.214317&amp;sspn=0.056147,0.066261&amp;ie=UTF8&amp;ei=kXgUS_XOB52KoAT84JXnAQ&amp;sig2=UFHnNhAgiPaNgRbh6Zd7tA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-12.461334,130.841904"></a>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>130.841904,-12.461334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Deniliquin NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>144.958969,-35.528545,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dorrigo NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Dorrigo&amp;vps=35&amp;jsv=191a&amp;sll=-35.528544,144.958974&amp;sspn=0.463813,0.53009&amp;ie=UTF8&amp;ei=pXgUS8aTN5W4owT864n7AQ&amp;sig2=p4sfT8yjRoDFuNO0aNAsyQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-30.340131,152.711827"></a>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>152.711823,-30.340132,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Emmaville NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style76</styleUrl>
+    <Point>
+      <coordinates>151.598633,-29.443987,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Engadine NSW 2233</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Engadine&amp;vps=37&amp;jsv=191a&amp;sll=-29.443987,151.598632&amp;sspn=0.496303,0.53009&amp;ie=UTF8&amp;ei=tXgUS8bIPIGYowSzzsXhAQ&amp;sig2=3aa0k_0IZdG02yyrhz4j7w&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-34.065716,151.012663"></a>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>151.012665,-34.065716,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ettalong Beach NSW 2257</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Ettalong,+nsw&amp;vps=40&amp;jsv=191a&amp;sll=-33.790556,151.173683&amp;sspn=0.947281,1.060181&amp;ie=UTF8&amp;ei=2XgUS6PtA5TIoATVuICKAg&amp;sig2=sQxFcdZJATQuX0rF4-cHdA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.513696,151.335289"></a><div><br>&nbsp;</div><div><span style="font-size:11px;color:rgb(102, 102, 102);line-height:18px">http://www.ivebeeneverywhere.com.au/?p=494</span></div>]]></description>
+    <styleUrl>#style52</styleUrl>
+    <Point>
+      <coordinates>151.335281,-33.513695,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Geelong VIC</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Geelong&amp;vps=42&amp;jsv=191a&amp;sll=-33.513275,151.335297&amp;sspn=0.028804,0.033131&amp;ie=UTF8&amp;ei=73gUS9u3EJmkoAS9mfX0AQ&amp;sig2=ZFNbhMbuK1j6B8J7kFlMNw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-38.147290,144.360735"></a>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>144.360733,-38.147289,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gin Gin QLD 4671</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=gin+gin&amp;vps=43&amp;jsv=191a&amp;sll=-38.147686,144.360738&amp;sspn=0.028012,0.033131&amp;ie=UTF8&amp;ei=-HgUS9f6FJCMoATMmNDFBQ&amp;sig2=jITMQa6RrXU-OiD7NstGXA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-24.993385,151.960164"></a>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>151.960159,-24.993385,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Girraween NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Girraween&amp;vps=44&amp;jsv=191a&amp;sll=-24.993385,151.960164&amp;sspn=0.129137,0.132523&amp;ie=UTF8&amp;ei=A3kUS5rNCZuKoATqwJWDAg&amp;sig2=QCENZpPDIwZ7xML_qIyPNA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.799843,150.947276"></a>]]></description>
+    <styleUrl>#style64</styleUrl>
+    <Point>
+      <coordinates>150.947281,-33.799843,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Goondiwindi QLD 4390</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style81</styleUrl>
+    <Point>
+      <coordinates>150.307693,-28.547014,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Grong Grong NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style83</styleUrl>
+    <Point>
+      <coordinates>146.781265,-34.738178,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gulgong NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Gulgong&amp;vps=47&amp;jsv=191a&amp;sll=-34.73818,146.781265&amp;sspn=0.468336,0.53009&amp;ie=UTF8&amp;ei=HnkUS_m3JIaqowTl04ndAQ&amp;sig2=BIXh6juB9ecKXYjkL0DxOQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-32.362587,149.533528"></a>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>149.533524,-32.362587,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gundagai NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Gundagai&amp;vps=48&amp;jsv=191a&amp;sll=-32.362587,149.533528&amp;sspn=0.120349,0.132523&amp;ie=UTF8&amp;ei=KXkUS8qkFpfipgTPpuHbAQ&amp;sig2=jNiO3xqbQcpQAAzJ_qCQIg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-35.065534,148.107529"></a>]]></description>
+    <styleUrl>#style71</styleUrl>
+    <Point>
+      <coordinates>148.107529,-35.065533,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gunnedah NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Gunnedah&amp;vps=49&amp;jsv=191a&amp;sll=-35.065534,148.107529&amp;sspn=0.116618,0.132523&amp;ie=UTF8&amp;ei=MXkUS8WdI5W4owTb6rX6AQ&amp;sig2=V0Ozk9wK5va_vVTjI6IdhA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-30.978589,150.255412"></a>]]></description>
+    <styleUrl>#style66</styleUrl>
+    <Point>
+      <coordinates>150.243530,-30.972898,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Indooroopilly QLD</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Indooroopilly&amp;vps=50&amp;jsv=191a&amp;sll=-30.978589,150.255412&amp;sspn=0.122156,0.132523&amp;ie=UTF8&amp;ei=O3kUS5vnFpXIoASgpu2KAg&amp;sig2=C1yabEWbcSPJCe-JR6r9KA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-27.497247,152.973849"></a>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>152.973846,-27.497248,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jerilderie NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style54</styleUrl>
+    <Point>
+      <coordinates>145.729279,-35.356449,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jindabyne NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>148.618866,-36.415073,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kilmore VIC 3764</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kilmore&amp;vps=53&amp;jsv=191a&amp;sll=-36.415074,148.618871&amp;sspn=0.229316,0.265045&amp;ie=UTF8&amp;ei=WXkUS_bxL5LEoAT12Y2FAg&amp;sig2=q3_TYskdqan5SxQWJHYXUQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-37.296087,144.952105"></a>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>144.952103,-37.296085,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kirribilli NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kirribilli+NSW,+Australia&amp;vps=55&amp;jsv=191a&amp;sll=-37.296087,144.952105&amp;sspn=0.113344,0.132523&amp;ie=UTF8&amp;split=0&amp;ei=ZXkUS5q3HYzOoATzvPD-AQ&amp;sig2=59ClcGgfuTpVvL_kt8w2mw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.846275,151.212705"></a>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>151.212708,-33.846275,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kumbarilla QLD 4405</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>150.872803,-27.324430,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kurrajong NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kurrajong&amp;vps=57&amp;jsv=191a&amp;sll=-27.32443,150.872804&amp;sspn=0.506325,0.53009&amp;ie=UTF8&amp;ei=enkUS8viC6bkoASLhIXuAQ&amp;sig2=HopRe4wdc_uaepyESz0gbQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.546749,150.660686"></a>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>150.660690,-33.546749,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kurri Kurri NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kurri+Kurri&amp;vps=58&amp;jsv=191a&amp;sll=-33.546749,150.660686&amp;sspn=0.059373,0.066261&amp;ie=UTF8&amp;ei=h3kUS5SkAofCoASQuJD5AQ&amp;sig2=3Ofkj912B1lgAvPLwKXocA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-32.817312,151.482952"></a>]]></description>
+    <styleUrl>#style93</styleUrl>
+    <Point>
+      <coordinates>151.482956,-32.817310,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lithgow NSW 2790</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lithgow&amp;vps=59&amp;jsv=191a&amp;sll=-28.77429,150.19359&amp;sspn=3.995857,4.240723&amp;ie=UTF8&amp;ei=pnkUS57dOYfCoASQuJD5AQ&amp;sig2=vL7bajRe4Bnk90YiWgaSUw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.480068,150.157987"></a>]]></description>
+    <styleUrl>#style57</styleUrl>
+    <Point>
+      <coordinates>150.157990,-33.480068,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maroochydore QLD</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Maroochydore&amp;vps=60&amp;jsv=191a&amp;sll=-33.480068,150.157987&amp;sspn=0.059419,0.066261&amp;g=Lithgow&amp;ie=UTF8&amp;ei=sHkUS8fuG5H4oASM5YGGAg&amp;sig2=V9e4Bm6z9hZr6lE93VfqoQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-26.652713,153.089740"></a>]]></description>
+    <styleUrl>#style68</styleUrl>
+    <Point>
+      <coordinates>153.089737,-26.652714,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Megalong NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>150.246231,-33.704121,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Milperra NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Milperra&amp;vps=62&amp;jsv=191a&amp;sll=-33.704121,150.246224&amp;sspn=0.237061,0.265045&amp;ie=UTF8&amp;ei=xHkUS6uMEqXkpgSB9aDjAQ&amp;sig2=T99lFPhGfMNtBTAOWLl9iw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.937834,150.989263"></a>]]></description>
+    <styleUrl>#style88</styleUrl>
+    <Point>
+      <coordinates>150.989258,-33.937836,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mittagong NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Mittagong&amp;vps=63&amp;jsv=191a&amp;sll=-33.937834,150.989263&amp;sspn=0.029552,0.033131&amp;ie=UTF8&amp;ei=zHkUS4nPOov-ogTprOzgAQ&amp;sig2=IWXpssgOMcqy-JYx3CRitg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-34.450856,150.448788"></a>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>150.448792,-34.450855,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Molong NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style60</styleUrl>
+    <Point>
+      <coordinates>148.868774,-33.091969,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mooloolaba QLD</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Mooloolaba&amp;vps=65&amp;jsv=191a&amp;sll=-33.09197,148.868772&amp;sspn=0.238737,0.265045&amp;ie=UTF8&amp;ei=3HkUS7qELpLEoASK2dmEAg&amp;sig2=AijYIBtZETin_ven50EzMg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-26.677686,153.117168"></a>]]></description>
+    <styleUrl>#style74</styleUrl>
+    <Point>
+      <coordinates>153.117172,-26.677687,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Moree NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>149.841583,-29.462975,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Morella QLD</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>143.863037,-22.983706,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mullumbimby NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Mullumbimby&amp;vps=68&amp;jsv=191a&amp;sll=-22.983706,143.863036&amp;sspn=1.049335,1.060181&amp;ie=UTF8&amp;ei=_XkUS4fIJoLyoASW4pzvAQ&amp;sig2=D0EYC45_ZfIwIIk4LFXfZA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-28.553161,153.499637"></a>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>153.499634,-28.553162,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Murwillumbah NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Murwillumbah&amp;vps=69&amp;jsv=191a&amp;sll=-28.553161,153.499637&amp;sspn=0.062575,0.066261&amp;ie=UTF8&amp;ei=B3oUS9-HMJXGoATG3oz2AQ&amp;sig2=lmr3JrZl9Bn4tX2Lqjl8MQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-28.326410,153.395975"></a>]]></description>
+    <styleUrl>#style82</styleUrl>
+    <Point>
+      <coordinates>153.395981,-28.326410,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nambour QLD</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Nambour&amp;vps=70&amp;jsv=191a&amp;sll=-28.32641,153.395975&amp;sspn=0.062709,0.066261&amp;ie=UTF8&amp;ei=EXoUS7zOOZDOoAT31PHlAQ&amp;sig2=qn7IwR63SboDI_MQxVjJqw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-26.625807,152.959917"></a>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>152.959915,-26.625807,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Narrabeen NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Narrabeen&amp;vps=71&amp;jsv=191a&amp;sll=-26.625807,152.959917&amp;sspn=0.063685,0.066261&amp;ie=UTF8&amp;ei=HHoUS9CAGYPMowTp7ZmMAg&amp;sig2=Fai_yQH6Jz2IBQGD8S9uXQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.723127,151.287366"></a>]]></description>
+    <styleUrl>#style69</styleUrl>
+    <Point>
+      <coordinates>151.287369,-33.723125,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Narromine NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style61</styleUrl>
+    <Point>
+      <coordinates>148.239609,-32.231918,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parramatta NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Parramatta&amp;vps=74&amp;jsv=191a&amp;sll=-32.23192,148.239606&amp;sspn=0.964178,1.060181&amp;ie=UTF8&amp;ei=NXoUS63HN4jKowTD-KnoAQ&amp;sig2=oCYCK-izbFcnZzQU6_IBQw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.816957,151.003451"></a>]]></description>
+    <styleUrl>#style75</styleUrl>
+    <Point>
+      <coordinates>151.003448,-33.816956,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Proserpine QLD 4800</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Proserpine&amp;vps=75&amp;jsv=191a&amp;sll=-33.816957,151.003451&amp;sspn=0.029594,0.033131&amp;ie=UTF8&amp;ei=PnoUS7PkHISuoQT1w63eAQ&amp;sig2=nhTTiRILLwd4pTfz9YfXHw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-20.401636,148.581496"></a>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>148.581497,-20.401636,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Stockinbingal NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>147.878830,-34.499992,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Strathpine QLD 4500</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Strathpine&amp;vps=79&amp;jsv=191a&amp;sll=-34.506557,147.878723&amp;sspn=0.469645,0.53009&amp;ie=UTF8&amp;ei=lXoUS4OYAabkoASLhIXuAQ&amp;sig2=gMdJ7sMaMgOyhdniMF4V7A&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-27.304267,152.989087"></a>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>152.989090,-27.304268,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tamborine QLD</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Tamborine&amp;vps=80&amp;jsv=191a&amp;sll=-27.304267,152.989087&amp;sspn=0.063302,0.066261&amp;ie=UTF8&amp;ei=nXoUS7aVJojKowTl9-HnAQ&amp;sig2=vjOVv5QkPPhYdgmA3gGd8g&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-27.880883,153.130246"></a>]]></description>
+    <styleUrl>#style59</styleUrl>
+    <Point>
+      <coordinates>153.130249,-27.880882,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Taree NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Taree&amp;vps=81&amp;jsv=191a&amp;sll=-27.880883,153.130246&amp;sspn=0.12594,0.132523&amp;ie=UTF8&amp;ei=pXoUS46FOIH-oASF-fz2AQ&amp;sig2=jrnbHPILRiHurzsAEh1HqQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-31.911714,152.463871"></a>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>152.463867,-31.911715,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tibooburra NSW</name>
+    <description><![CDATA[<div dir="ltr">Australia - http://www.ivebeeneverywhere.com.au/2011/05/31/tibooburra/<br></div>]]></description>
+    <styleUrl>#style89</styleUrl>
+    <Point>
+      <coordinates>142.010086,-29.434259,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Toowoomba QLD</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Toowoomba&amp;vps=83&amp;jsv=191a&amp;sll=-29.434259,142.010079&amp;sspn=3.970246,4.240723&amp;ie=UTF8&amp;ei=uHoUS7O-MqXkpgSB9aDjAQ&amp;sig2=W-IHgueveOKWt1mGBrCgzg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-27.561302,151.955505"></a>]]></description>
+    <styleUrl>#style96</styleUrl>
+    <Point>
+      <coordinates>151.955505,-27.561302,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tuggerawong NSW 2259</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Tuggerawong&amp;vps=84&amp;jsv=191a&amp;sll=-27.561302,151.955505&amp;sspn=0.031577,0.033131&amp;ie=UTF8&amp;ei=wHoUS-L0IYzCoATV5LztAQ&amp;sig2=rd_RbUYwdQOEzD6ZYuOuyQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.280657,151.476312"></a><div><span style="font-size:11px;color:rgb(102, 102, 102);line-height:18px">http://www.ivebeeneverywhere.com.au/?p=519</span></div>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>151.476318,-33.280659,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tullamore NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style53</styleUrl>
+    <Point>
+      <coordinates>147.564026,-32.631462,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Turramurra NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Turramurra&amp;vps=86&amp;jsv=191a&amp;sll=-32.631463,147.564026&amp;sspn=0.959912,1.060181&amp;ie=UTF8&amp;ei=z3oUS-uoNpXIoASgpu2KAg&amp;sig2=DLiDsgLQXknqUBp8qEry9Q&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.733244,151.129809"></a>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>151.129807,-33.733246,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ulladulla NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Ulladulla&amp;vps=87&amp;jsv=191a&amp;sll=-33.733244,151.129809&amp;sspn=0.059245,0.066261&amp;ie=UTF8&amp;ei=13oUS7_JA52KoATl38XmAQ&amp;sig2=eyBk_P4vKTspcih6fKHSYQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-35.357094,150.474301"></a>]]></description>
+    <styleUrl>#style91</styleUrl>
+    <Point>
+      <coordinates>150.474304,-35.357094,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Unanderra NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Unanderra&amp;vps=88&amp;jsv=191a&amp;sll=-35.357094,150.474301&amp;sspn=0.0581,0.066261&amp;ie=UTF8&amp;ei=4HoUS4zCOYrUowSHxZ3pAQ&amp;sig2=Q8MXlY3SCyPybHwuaQWU6g&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-34.454624,150.845093"></a>]]></description>
+    <styleUrl>#style86</styleUrl>
+    <Point>
+      <coordinates>150.845093,-34.454624,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wallangarra QLD</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Wallangarra&amp;vps=89&amp;jsv=191a&amp;sll=-34.454624,150.845093&amp;sspn=0.029371,0.033131&amp;ie=UTF8&amp;ei=6HoUS_ziFofCoASSueD5AQ&amp;sig2=NPKjMl8Pwpsyw2Z4n-lr9Q&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-28.922912,151.930250"></a>]]></description>
+    <styleUrl>#style94</styleUrl>
+    <Point>
+      <coordinates>151.930252,-28.922913,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wallaville QLD 4671</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>151.996078,-25.070511,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wallumbilla QLD 4428</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Wallumbilla&amp;vps=91&amp;jsv=191a&amp;sll=-25.07051,151.996078&amp;sspn=0.129056,0.132523&amp;ie=UTF8&amp;ei=-HoUS9qNHpLEoAT12Y2FAg&amp;sig2=R-kKI8R3z3VFAkrZEkYzBg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-26.587040,149.186312"></a>]]></description>
+    <styleUrl>#style65</styleUrl>
+    <Point>
+      <coordinates>149.186310,-26.587040,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wanganella NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style90</styleUrl>
+    <Point>
+      <coordinates>144.815369,-35.211334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wangaratta VIC</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Wangaratta&amp;vps=93&amp;jsv=191a&amp;sll=-35.211335,144.815368&amp;sspn=0.931278,1.060181&amp;ie=UTF8&amp;ei=C3sUS632I5XIoASgpu2KAg&amp;sig2=h2XbZhUiOEevmgypTk-oVw&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-36.353715,146.324937"></a>]]></description>
+    <styleUrl>#style62</styleUrl>
+    <Point>
+      <coordinates>146.324936,-36.353714,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wollongong NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Wollongong&amp;vps=96&amp;jsv=191a&amp;sll=-36.454536,146.150933&amp;sspn=0.444594,0.53009&amp;ie=UTF8&amp;ei=L3sUS6qIE4L-oATpovzqAQ&amp;sig2=6sjKw0HdSs3ob3nmUhaJJg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-34.425878,150.899818"></a>]]></description>
+    <styleUrl>#style97</styleUrl>
+    <Point>
+      <coordinates>150.899811,-34.425877,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Woodenbong NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Woodenbong&amp;vps=97&amp;jsv=191a&amp;sll=-34.426735,150.899792&amp;sspn=0.058762,0.066261&amp;ie=UTF8&amp;ei=NnsUS_epO6HSoASHp9GAAg&amp;sig2=rlducMlrrvmb0ll5ioagjA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-28.391044,152.612035"></a>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>152.612030,-28.391045,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Woolloomooloo NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Woolloomooloo&amp;vps=98&amp;jsv=191a&amp;sll=-28.391044,152.612035&amp;sspn=0.125342,0.132523&amp;ie=UTF8&amp;ei=P3sUS8X5E5CMoASUmfDFBQ&amp;sig2=ntsgKGoML09-5_bs9yZnyA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.869283,151.220412"></a>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>151.220413,-33.869282,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wyong NSW</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Wyong&amp;vps=99&amp;jsv=191a&amp;sll=-33.869283,151.220412&amp;sspn=0.029575,0.033131&amp;ie=UTF8&amp;ei=RnsUS5OqFoXIoATM68z9AQ&amp;sig2=0JMr7pQ6HuvkQnV2jL-TAQ&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-33.283480,151.422404"></a><div>http://www.ivebeeneverywhere.com.au/?p=451</div>]]></description>
+    <styleUrl>#style50</styleUrl>
+    <Point>
+      <coordinates>151.422409,-33.283482,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yeerongpilly QLD</name>
+    <description><![CDATA[Australia<br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Yeerongpilly&amp;vps=103&amp;jsv=191a&amp;sll=-34.789277,149.627395&amp;sspn=0.029253,0.033131&amp;g=Yarra+Yarra,+nsw&amp;ie=UTF8&amp;ei=c3sUS9rDEZCMoATMmNDFBQ&amp;sig2=0Ehs3V7y8iEAUg5aZOKdNA&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-27.526307,153.013227"></a>]]></description>
+    <styleUrl>#style58</styleUrl>
+    <Point>
+      <coordinates>153.013229,-27.526306,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bundarra NSW</name>
+    <description><![CDATA[Australia<br>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>151.075836,-30.171370,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wollondilly Shire Council</name>
+    <styleUrl>#style63</styleUrl>
+    <Point>
+      <coordinates>150.606003,-34.185501,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Oodnadatta SA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>135.447021,-27.546530,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Seymour VIC</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>145.134155,-37.025311,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Narrabri NSW</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>149.782837,-30.324835,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Muckadilla QLD</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>148.386749,-26.585255,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yarra Yarra</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style79</styleUrl>
+    <Point>
+      <coordinates>149.573364,-34.845367,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yarra Yarra (2)</name>
+    <description><![CDATA[-35° 42' 54.00", +147° 27' 4.00"<br>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>147.451111,-35.715000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>River Murray (Albury)</name>
+    <description><![CDATA[<a href="http://maps.google.com.au/maps/place?ftid=0x6b215f7c6909bc87:0x825594231255d787&amp;q=albury&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=QrBkS6auAozusAPqkpEu&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-36.082137,146.910174"></a>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>146.905396,-36.084064,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fingal Head NSW</name>
+    <description><![CDATA[<a href="http://maps.google.com.au/maps/place?ftid=0x6b90ffeb1e7da523:0x21fead0c1c58e95c&amp;q=fingal+head,+nsw&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=DU5_S9WIBZ6ysQOP8IGACg&amp;dtab=5" target="_blank"><img src="http://cbk0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=-28.204156,153.565709"></a>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>153.565704,-28.204157,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>City of Boroondara</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style78</styleUrl>
+    <Point>
+      <coordinates>145.085526,-37.813522,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Little Billabong NSW</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style95</styleUrl>
+    <Point>
+      <coordinates>147.529709,-35.587982,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
